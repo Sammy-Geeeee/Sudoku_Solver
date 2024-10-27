@@ -35,7 +35,6 @@ class FrameMain(tk.Frame):
         self.frame_main.columnconfigure([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], weight=1)
         self.frame_main.rowconfigure([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], weight=1)
 
-
         # Main frame Widgets (Labels and setup)
         self.label_A = tk.Label(master=self.frame_main, width=label_width, font=label_font, text='A')
         self.label_B = tk.Label(master=self.frame_main, width=label_width, font=label_font, text='B')
